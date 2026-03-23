@@ -1,10 +1,8 @@
-// PrivacyPolicy.jsx
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import './app.css';
 
 const PrivacyPolicy = () => {
     useEffect(() => {
-        // Back to top button logic
         const handleScroll = () => {
             const backTop = document.querySelector('.privacy-back-top');
             if (backTop) {
