@@ -24,7 +24,6 @@ const PrivacyPolicy = () => {
 
     return (
         <div className="privacy-policy-container">
-            {/* Header */}
             <div className="privacy-header">
                 <div className="privacy-logo">
                     <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -39,13 +38,11 @@ const PrivacyPolicy = () => {
                 </div>
             </div>
 
-            {/* Introduction */}
             <div className="privacy-section">
                 <h2>Introduction</h2>
                 <p>La présente politique de confidentialité décrit comment Immovia collecte, utilise et protège vos données personnelles lorsque vous utilisez notre application mobile. Nous nous engageons à garantir que votre vie privée est protégée et que vos informations restent sécurisées.</p>
             </div>
 
-            {/* Données collectées */}
             <div className="privacy-section">
                 <h2>1. Données que nous collectons</h2>
                 <p>Nous collectons les informations suivantes :</p>
@@ -58,7 +55,6 @@ const PrivacyPolicy = () => {
                 </ul>
             </div>
 
-            {/* Utilisation des données */}
             <div className="privacy-section">
                 <h2>2. Comment nous utilisons vos données</h2>
                 <p>Vos données sont utilisées pour :</p>
@@ -73,7 +69,6 @@ const PrivacyPolicy = () => {
                 </ul>
             </div>
 
-            {/* Partage des données */}
             <div className="privacy-section">
                 <h2>3. Partage des données</h2>
                 <p>Nous ne vendons pas vos données personnelles. Vos informations peuvent être partagées uniquement :</p>
@@ -85,38 +80,32 @@ const PrivacyPolicy = () => {
                 </ul>
             </div>
 
-            {/* Sécurité des données */}
             <div className="privacy-section">
                 <h2>4. Sécurité des données</h2>
                 <p>Nous mettons en œuvre des mesures de sécurité techniques et organisationnelles de pointe pour protéger vos données contre tout accès non autorisé, modification, divulgation ou destruction. Vos données sont stockées sur des serveurs sécurisés, les communications sont cryptées et nous assurons une protection continue de vos informations.</p>
             </div>
 
-            {/* Conservation des données */}
             <div className="privacy-section">
                 <h2>5. Conservation des données</h2>
                 <p>Nous conservons vos données de manière sécurisée pour vous fournir nos services de façon continue et pour respecter nos obligations légales. Votre historique, vos annonces et vos informations restent accessibles dans votre compte pour assurer la continuité de votre expérience sur notre plateforme. Nous garantissons la protection et l'intégrité de vos données tout au long de votre utilisation de l'application.</p>
             </div>
 
-            {/* Accès aux données */}
             <div className="privacy-section">
                 <h2>6. Accès à vos données</h2>
                 <p>Vous avez le droit d'accéder à vos informations personnelles et de les consulter à tout moment via votre compte utilisateur. Vous pouvez également nous contacter pour obtenir des informations détaillées sur les données que nous détenons vous concernant. Nous nous engageons à répondre à toutes vos demandes dans les meilleurs délais.</p>
                 <p style={{ marginTop: '12px' }}>Pour toute demande d'accès ou de rectification, veuillez accéder dans la page profil puis appuyer sur le crayon en haut à droite. Et pour l'effacement totale de votre compte merci de nous contacter via notre adresse email.</p>
             </div>
 
-            {/* Cookies et technologies similaires */}
             <div className="privacy-section">
                 <h2>7. Cookies et technologies similaires</h2>
                 <p>Notre application utilise des technologies de stockage local pour améliorer votre expérience et conserver vos préférences. Ces technologies nous permettent de personnaliser votre navigation et de mémoriser vos paramètres pour faciliter votre utilisation quotidienne de l'application.</p>
             </div>
 
-            {/* Modifications de la politique */}
             <div className="privacy-section">
                 <h2>8. Modifications de cette politique</h2>
                 <p>Nous pouvons modifier cette politique de confidentialité de temps à autre pour l'améliorer ou nous conformer à l'évolution de la réglementation. Les modifications seront publiées dans l'application et, si elles sont significatives, nous vous en informerons par notification. Nous vous invitons à consulter régulièrement cette page.</p>
             </div>
 
-            {/* Contact */}
             <div className="privacy-contact">
                 <h3>9. Nous contacter</h3>
                 <p><strong>📧 Email :</strong> gradingunza@gmail.com, l'administrateur technique</p>
@@ -124,7 +113,6 @@ const PrivacyPolicy = () => {
                 <p style={{ marginTop: '12px', fontSize: '13px', color: '#4a5568' }}>Notre équipe est à votre disposition pour vous accompagner.</p>
             </div>
 
-            {/* Consentement */}
             <div className="privacy-consent">
                 <div className="privacy-consent-icon">
                     <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -134,7 +122,6 @@ const PrivacyPolicy = () => {
                 <p>En utilisant Immovia, vous bénéficiez d'une protection totale de vos données et vous consentez à notre politique de confidentialité.</p>
             </div>
 
-            {/* Back to Top Button */}
             <button className="privacy-back-top" onClick={scrollToTop}>
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M12 5L12 19M12 5L5 12M12 5L19 12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
