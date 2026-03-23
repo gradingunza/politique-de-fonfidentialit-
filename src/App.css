@@ -1,0 +1,322 @@
+/* ============================================
+   POLITIQUE DE CONFIDENTIALITÉ - STYLES
+   Application Immovia
+   ============================================ */
+
+/* Reset & Base */
+.privacy-policy-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background: linear-gradient(135deg, #f5f7fa 0%, #ffffff 100%);
+    min-height: 100vh;
+}
+
+/* Header */
+.privacy-header {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    border-radius: 30px;
+    margin-bottom: 30px;
+    color: white;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.privacy-logo {
+    width: 80px;
+    height: 80px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+.privacy-logo:hover {
+    transform: scale(1.05);
+}
+
+.privacy-logo svg {
+    width: 45px;
+    height: 45px;
+}
+
+.privacy-header h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+.privacy-date {
+    font-size: 14px;
+    opacity: 0.8;
+    display: inline-block;
+    background: rgba(255,255,255,0.2);
+    padding: 5px 15px;
+    border-radius: 50px;
+}
+
+/* Sections */
+.privacy-section {
+    background: white;
+    border-radius: 20px;
+    padding: 24px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+    border: 1px solid rgba(0,0,0,0.05);
+}
+
+.privacy-section:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.privacy-section h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1a1a2e;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #1a1a2e;
+    display: inline-block;
+}
+
+.privacy-section p {
+    color: #4a5568;
+    font-size: 15px;
+    line-height: 1.7;
+    margin-top: 10px;
+}
+
+.privacy-section ul {
+    margin: 15px 0 0 20px;
+    padding-left: 0;
+    list-style: none;
+}
+
+.privacy-section li {
+    color: #4a5568;
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 8px;
+    padding-left: 24px;
+    position: relative;
+}
+
+.privacy-section li::before {
+    content: "•";
+    color: #1a1a2e;
+    font-weight: bold;
+    font-size: 18px;
+    position: absolute;
+    left: 8px;
+    top: 0;
+}
+
+/* Liste avec icônes personnalisées */
+.privacy-list-icon {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0 0;
+}
+
+.privacy-list-icon li {
+    margin-bottom: 12px;
+    padding-left: 30px;
+    position: relative;
+    line-height: 1.6;
+    color: #4a5568;
+}
+
+.privacy-list-icon li::before {
+    content: "✓";
+    color: #1a1a2e;
+    font-weight: bold;
+    font-size: 16px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* Consentement */
+.privacy-consent {
+    background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+    border: 1px solid #bbf7d0;
+    border-radius: 20px;
+    padding: 25px;
+    text-align: center;
+    margin: 30px 0 20px;
+}
+
+.privacy-consent-icon {
+    width: 50px;
+    height: 50px;
+    background: #1a1a2e;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 15px;
+}
+
+.privacy-consent-icon svg {
+    width: 28px;
+    height: 28px;
+}
+
+.privacy-consent p {
+    color: #166534;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+}
+
+/* Contact section */
+.privacy-contact {
+    background: #f8fafc;
+    border-radius: 20px;
+    padding: 24px;
+    margin-top: 20px;
+    border-left: 4px solid #1a1a2e;
+}
+
+.privacy-contact h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a2e;
+    margin-bottom: 15px;
+}
+
+.privacy-contact p {
+    color: #4a5568;
+    font-size: 14px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.privacy-contact strong {
+    color: #1a1a2e;
+    min-width: 60px;
+}
+
+/* Back to top button */
+.privacy-back-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: #1a1a2e;
+    color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    border: none;
+    z-index: 1000;
+}
+
+.privacy-back-top.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.privacy-back-top:hover {
+    background: #16213e;
+    transform: translateY(-3px);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .privacy-policy-container {
+        padding: 15px;
+    }
+    
+    .privacy-header {
+        padding: 30px 15px;
+    }
+    
+    .privacy-header h1 {
+        font-size: 24px;
+    }
+    
+    .privacy-section {
+        padding: 18px;
+    }
+    
+    .privacy-section h2 {
+        font-size: 18px;
+    }
+    
+    .privacy-section p,
+    .privacy-section li {
+        font-size: 14px;
+    }
+    
+    .privacy-back-top {
+        bottom: 20px;
+        right: 20px;
+        width: 40px;
+        height: 40px;
+    }
+}
+
+/* Animation */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.privacy-section {
+    animation: fadeInUp 0.5s ease forwards;
+    opacity: 0;
+}
+
+.privacy-section:nth-child(1) { animation-delay: 0.05s; }
+.privacy-section:nth-child(2) { animation-delay: 0.1s; }
+.privacy-section:nth-child(3) { animation-delay: 0.15s; }
+.privacy-section:nth-child(4) { animation-delay: 0.2s; }
+.privacy-section:nth-child(5) { animation-delay: 0.25s; }
+.privacy-section:nth-child(6) { animation-delay: 0.3s; }
+.privacy-section:nth-child(7) { animation-delay: 0.35s; }
+.privacy-section:nth-child(8) { animation-delay: 0.4s; }
+.privacy-section:nth-child(9) { animation-delay: 0.45s; }
+
+/* Print styles */
+@media print {
+    .privacy-back-top {
+        display: none;
+    }
+    
+    .privacy-section {
+        break-inside: avoid;
+        box-shadow: none;
+        border: 1px solid #ddd;
+    }
+    
+    .privacy-header {
+        background: #1a1a2e;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+}
